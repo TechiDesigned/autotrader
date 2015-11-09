@@ -7,7 +7,7 @@
 
 <p>
   <strong>Make:</strong>
-  <%= @category.make.name %>
+  <%= @category.make.name if @category.make %>
 </p>
 
 <%= link_to 'Edit', edit_category_path(@category) %> |
