@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category_id: 1
+  color: MyString
+  condition: MyString
+  price: 1.5
+
+two:
+  category_id: 1
+  color: MyString
+  condition: MyString
+  price: 1.5
