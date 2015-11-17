@@ -1,4 +1,9 @@
 <p>
+  <strong>User:</strong>
+  <%= @vehicle.user.email if @vehicle.user.present? %>
+</p>
+
+<p>
   <strong>Make:</strong>
   <%= @vehicle.category.make.name %>
 </p>
